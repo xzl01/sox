@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/(\d)[_\.\-]?((RC|rc|pre|dev|beta|alpha|b|a)\d*)$/$1~$2/ \
+https://qa.debian.org/watch/sf.php/sox/sox-(\d.*)\.(?:tgz|tbz2|tar\.(?:gz|bz2|xz))
